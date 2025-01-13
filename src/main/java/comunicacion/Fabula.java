@@ -29,10 +29,10 @@ public class Fabula extends Escrito {
 				this.getTitulo() + "\n" +
 				this.getAutor() + "\n" +
 				this.getPaginas() + "\n" +
-				this.getEnsenanzas();
+				this.getEnsenanza();
 	}
 
-	public String getEnsenanzas() {
+	public String getEnsenanza() {
 		return ensenanzas;
 	}
 
