@@ -21,13 +21,13 @@ public class Tesis extends Escrito {
 	}
 
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 	
 		return palabrasPagina * 5;
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		
 		return interpretacion;
 	}
@@ -69,8 +69,8 @@ public class Tesis extends Escrito {
 		this.referencias = referencias;
 	}
 
-	public int getArgumentos() {
-		return argumentos.length;
+	public String[] getArgumentos() {
+		return argumentos;
 	}
 
 	public void setArgumentos(String[] argumentos) {

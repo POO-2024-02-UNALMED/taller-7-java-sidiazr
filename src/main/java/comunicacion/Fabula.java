@@ -18,7 +18,7 @@ public class Fabula extends Escrito {
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
