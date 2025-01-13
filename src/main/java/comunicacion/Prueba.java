@@ -17,11 +17,16 @@ public class Prueba {
 		Tesis tesis = new Tesis("Pensamiento expansivo", "Recomendador", "Alejandro", 20, "Recomendar asignaturas", new String [] {"Primero", "Segundo"},
 				"Se hace trabajo futuro", "[1] Maquinaria",  "Escrito investigativo");
 		
-		String  comp = "Cuento corto";
+		String  comp = "Pensamiento expansivo\n" + 
+				"Recomendador\n" + 
+				"Alejandro\n" + 
+				"20\n" + 
+				"Recomendar asignaturas\n" + 
+				"2\n" + 
+				"Se hace trabajo futuro\n" + 
+				"[1] Maquinaria";
+		System.out.println(tesis);
 		
-		//System.out.println(fabula.palabrasTotales(140));
-		
-		System.out.println(fabula.interpretacion().equals(comp) && fabula.palabrasTotales(140) == 280);
 		
 		
 	}
